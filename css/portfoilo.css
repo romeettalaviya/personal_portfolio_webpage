@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(56, 52, 52);
+}
+
+#navbar {
+    width: 100%;
+    background-color: rgb(204, 15, 56);
+    overflow: hidden;
+    position: fixed;
+}
+
+#navbar a {
+    float: right;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    font-size: 18px;
+    transition: ;
+}
+
+#navbar a:hover {
+    background-color: rgb(20, 20, 163);
+
+}
+
+#navbar a:active {
+    background-color: rgb(20, 20, 163);
+}
+
+#welcome-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+h2 { 
+    font-weight: 200;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(204, 15, 56);
+    font-style: italic;
+}
+
+div.work {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(135, 102, 167);
+}
+
+.project-title {
+    margin: auto;
+    border: none;
+    background-color: rgb(56, 52, 52);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.project-title:hover {
+    padding: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+@media screen and (max-width:600px){
+    #navbar{position: fixed}
+}
